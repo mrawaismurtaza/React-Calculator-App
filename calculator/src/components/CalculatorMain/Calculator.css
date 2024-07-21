@@ -1,0 +1,29 @@
+.calculator {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.history,
+.keyboard {
+    width: 100%;
+    height: 100%;
+}
+
+.history {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+
+.history::-webkit-scrollbar {
+    display: none; 
+}
+
+.keyboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
